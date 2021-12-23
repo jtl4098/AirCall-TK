@@ -1,0 +1,43 @@
+{
+  "name": "frontend-hiring-challenge",
+  "version": "1.0.0",
+  "description": "Leap test",
+  "main": "index.js",
+  "repository": "",
+  "author": "",
+  "license": "",
+  "private": false,
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "@cantonjs/react-scroll-view": "0.4.2",
+    "@emotion/react": "11.7.1",
+    "@emotion/styled": "11.6.0",
+    "@fortawesome/fontawesome-free": "5.15.4",
+    "@material-ui/core": "4.12.3",
+    "@material-ui/icons": "4.11.2",
+    "@material/card": "13.0.0",
+    "@mui/material": "5.2.5",
+    "@mui/styled-engine-sc": "5.1.0",
+    "axios": "0.24.0",
+    "intersection-observer": "0.12.0",
+    "react": "18.0.0-rc.0-next-bcd24a670-20211221",
+    "react-dom": "18.0.0-rc.0-next-bcd24a670-20211221",
+    "styled-components": "5.3.3"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.*",
+    "babel-loader": "7.1.*",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.*",
+    "css-loader": "2.1.*",
+    "html-loader": "0.5.*",
+    "html-webpack-plugin": "3.2.*",
+    "style-loader": "0.23.*",
+    "webpack": "4.29.*",
+    "webpack-cli": "3.2.*",
+    "webpack-dev-server": "3.1.*"
+  }
+}
