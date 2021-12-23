@@ -44,7 +44,6 @@ const Tabs = () => {
       setFeedCells(feeds);
     });
     
-    
   }, [])
   return (
     <div className="Tabs">
